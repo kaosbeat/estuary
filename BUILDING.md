@@ -33,7 +33,7 @@ git clone https://github.com/dktr0/Estuary
 
 ## Building for a release
 
-`nix-build` will build all the packages and symlink the output in the `result` folder. The `estuary-common` package is built with both shells.
+`nix-build` will build all the packages and symlink the output in the `result` folder. The `estuary-common` package is built with both shells. But don't run `nix-build` itself, it will result in error. Run one of the make scripts specified below.
 
 ```shell
 tree result
